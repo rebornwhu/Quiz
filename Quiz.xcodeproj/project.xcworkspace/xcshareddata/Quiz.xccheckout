@@ -10,29 +10,29 @@
 	<string>Quiz</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>A3A5980B-E857-416D-A363-D1F7C2734B81</key>
+		<key>1D514911BA71C0A3A7B4F79A976DD985265DD54B</key>
 		<string>https://github.com/rebornwhu/Quiz.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Quiz.xcodeproj/project.xcworkspace</string>
+	<string>Quiz.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>A3A5980B-E857-416D-A363-D1F7C2734B81</key>
+		<key>1D514911BA71C0A3A7B4F79A976DD985265DD54B</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/rebornwhu/Quiz.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>A3A5980B-E857-416D-A363-D1F7C2734B81</string>
+	<string>1D514911BA71C0A3A7B4F79A976DD985265DD54B</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>A3A5980B-E857-416D-A363-D1F7C2734B81</string>
+			<string>1D514911BA71C0A3A7B4F79A976DD985265DD54B</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Quiz</string>
 		</dict>

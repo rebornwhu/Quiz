@@ -6,13 +6,26 @@
 //
 //
 
-#import "BNRViewController.h"
+#import "BNRQuizViewController.h"
 
-@interface BNRViewController ()
+@interface BNRQuizViewController ()
+
+@property (nonatomic, weak) IBOutlet UILabel *questionLabel;
+@property (nonatomic, weak) IBOutlet UILabel *answerLabel;
 
 @end
 
-@implementation BNRViewController
+@implementation BNRQuizViewController
+
+- (IBAction)showQuestion:(id)sender
+{
+    
+}
+
+- (IBAction)showAnswer:(id)sender
+{
+    
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

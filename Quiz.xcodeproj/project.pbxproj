@@ -19,8 +19,8 @@
 		F367728D1AF91E3D0075204E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F36772751AF91E3D0075204E /* UIKit.framework */; };
 		F36772951AF91E3D0075204E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F36772931AF91E3D0075204E /* InfoPlist.strings */; };
 		F36772971AF91E3D0075204E /* QuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F36772961AF91E3D0075204E /* QuizTests.m */; };
-		F36772A81AF920BE0075204E /* BNRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F36772A61AF920BE0075204E /* BNRViewController.m */; };
-		F36772A91AF920BE0075204E /* BNRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F36772A71AF920BE0075204E /* BNRViewController.xib */; };
+		F36772A81AF920BE0075204E /* BNRQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F36772A61AF920BE0075204E /* BNRQuizViewController.m */; };
+		F36772A91AF920BE0075204E /* BNRQuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F36772A71AF920BE0075204E /* BNRQuizViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +50,9 @@
 		F36772921AF91E3D0075204E /* QuizTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuizTests-Info.plist"; sourceTree = "<group>"; };
 		F36772941AF91E3D0075204E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F36772961AF91E3D0075204E /* QuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizTests.m; sourceTree = "<group>"; };
-		F36772A51AF920BE0075204E /* BNRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRViewController.h; sourceTree = "<group>"; };
-		F36772A61AF920BE0075204E /* BNRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRViewController.m; sourceTree = "<group>"; };
-		F36772A71AF920BE0075204E /* BNRViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRViewController.xib; sourceTree = "<group>"; };
+		F36772A51AF920BE0075204E /* BNRQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRQuizViewController.h; sourceTree = "<group>"; };
+		F36772A61AF920BE0075204E /* BNRQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRQuizViewController.m; sourceTree = "<group>"; };
+		F36772A71AF920BE0075204E /* BNRQuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRQuizViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,9 +116,9 @@
 				F36772811AF91E3D0075204E /* BNRAppDelegate.m */,
 				F36772831AF91E3D0075204E /* Images.xcassets */,
 				F36772781AF91E3D0075204E /* Supporting Files */,
-				F36772A51AF920BE0075204E /* BNRViewController.h */,
-				F36772A61AF920BE0075204E /* BNRViewController.m */,
-				F36772A71AF920BE0075204E /* BNRViewController.xib */,
+				F36772A51AF920BE0075204E /* BNRQuizViewController.h */,
+				F36772A61AF920BE0075204E /* BNRQuizViewController.m */,
+				F36772A71AF920BE0075204E /* BNRQuizViewController.xib */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -227,7 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F36772A91AF920BE0075204E /* BNRViewController.xib in Resources */,
+				F36772A91AF920BE0075204E /* BNRQuizViewController.xib in Resources */,
 				F367727C1AF91E3D0075204E /* InfoPlist.strings in Resources */,
 				F36772841AF91E3D0075204E /* Images.xcassets in Resources */,
 			);
@@ -250,7 +250,7 @@
 			files = (
 				F367727E1AF91E3D0075204E /* main.m in Sources */,
 				F36772821AF91E3D0075204E /* BNRAppDelegate.m in Sources */,
-				F36772A81AF920BE0075204E /* BNRViewController.m in Sources */,
+				F36772A81AF920BE0075204E /* BNRQuizViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +447,7 @@
 				F367729C1AF91E3D0075204E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F367729D1AF91E3D0075204E /* Build configuration list for PBXNativeTarget "QuizTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +456,7 @@
 				F367729F1AF91E3D0075204E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
