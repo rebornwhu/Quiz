@@ -10,6 +10,10 @@
 
 @interface BNRQuizViewController ()
 
+@property (nonatomic) int currentQuestionIndex;
+@property (nonatomic, copy) NSArray *questions;
+@property (nonatomic, copy) NSArray *answers;
+
 @property (nonatomic, weak) IBOutlet UILabel *questionLabel;
 @property (nonatomic, weak) IBOutlet UILabel *answerLabel;
 
@@ -30,9 +34,13 @@
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    
     if (self) {
-        // Custom initialization
+        self.questions = @[@"From what is cognac made?",
+                           @"What is 7+7?",
+                           @"What is the capital of Vermont?"];
     }
+    
     return self;
 }
 
