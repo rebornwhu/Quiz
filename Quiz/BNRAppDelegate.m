@@ -10,10 +10,16 @@
 
 @implementation BNRAppDelegate
 
+// Entry point of an iOS app
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    // Create instance of the 1st VC and set it to window
+    BNRQuizViewController *quizVC = [[BNRQuizViewController alloc] init];
+    self.window.rootViewController = quizVC;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

@@ -10,7 +10,7 @@
 
 @interface BNRQuizViewController ()
 
-@property (nonatomic) int currentQuestionIndex;
+@property (nonatomic) NSInteger currentQuestionIndex;
 @property (nonatomic, copy) NSArray *questions;
 @property (nonatomic, copy) NSArray *answers;
 
@@ -23,12 +23,23 @@
 
 - (IBAction)showQuestion:(id)sender
 {
+    self.currentQuestionIndex++;
     
+    if (self.currentQuestionIndex == [self.questions count]) {
+        self.currentQuestionIndex = 0;
+    }
+    
+    NSString *queestion = self.questions[self.currentQuestionIndex];
+    
+    self.questionLabel.text = queestion;
+    
+    self.answerLabel.text = @"???";
 }
 
 - (IBAction)showAnswer:(id)sender
 {
-    
+    NSString *answer = self.answers[self.currentQuestionIndex];
+    self.answerLabel.text = answer;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -39,6 +50,10 @@
         self.questions = @[@"From what is cognac made?",
                            @"What is 7+7?",
                            @"What is the capital of Vermont?"];
+        
+        self.answers = @[@"Grapes",
+                         @"14",
+                         @"Montpelier"];
     }
     
     return self;

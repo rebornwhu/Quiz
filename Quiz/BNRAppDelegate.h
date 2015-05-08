@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BNRQuizViewController.h"
 
 @interface BNRAppDelegate : UIResponder <UIApplicationDelegate>
 
